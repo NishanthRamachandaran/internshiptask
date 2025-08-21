@@ -1,0 +1,46 @@
+# Flutter related
+/flutter-plugins
+/.dart_tool/
+/.pub-cache/
+/.pub/
+/build/
+/android/gradle-wrapper.jar
+/ios/.generated/
+
+# Android related
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# iOS related
+/ios/.symlinks/
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Firebase and secrets
+/google-services.json
+/GoogleService-Info.plist
+*.key
+*.jks
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
