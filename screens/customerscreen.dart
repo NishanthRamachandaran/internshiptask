@@ -5,7 +5,7 @@ class ManageCustomersScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Hardcoded customer list for demo
+ 
     final List<String> customers = [
       'John Doe',
       'Jane Smith',
@@ -43,4 +43,5 @@ class ManageCustomersScreen extends StatelessWidget {
       ),
     );
   }
+
 }
