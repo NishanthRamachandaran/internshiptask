@@ -18,7 +18,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final AuthService _authService = AuthService();
   int _currentIndex = 0;
 
-  // Sample restaurant data with real image URLs
   final List<Map<String, String>> restaurants = [
     {
       'name': 'BFC',
@@ -62,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
     },
   ];
 
-  // Category images with URLs
+ 
   final List<Map<String, String>> categories = [
     {
       'name': 'Pizza',
@@ -276,3 +275,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
